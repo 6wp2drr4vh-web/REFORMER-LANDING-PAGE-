@@ -11,17 +11,17 @@
 <style>
   :root{
     --cream:#F1EBE1;
-    --beige:#E4DAC9;
-    --beige-deep:#D6C9B4;
+    --beige:#E0D4BF;
+    --beige-deep:#CFC0A8;
     --brown:#5C4636;
     --brown-deep:#3B2C20;
     --charcoal:#2A2622;
-    --red:#5F2421;
+    --red:#6E2621;
     --red-soft:#7C322D;
     --ink:#2A2622;
-    --soft:#6f6353;
+    --soft:#5b4f40;
     --line:#cdbfa9;
-    --gold:#8E332C;
+    --gold:#9A3227;
   }
   *{margin:0;padding:0;box-sizing:border-box;}
   html{scroll-behavior:smooth;}
@@ -48,7 +48,7 @@
 
   /* HERO */
   .hero{position:relative;overflow:hidden;text-align:center;color:var(--cream);min-height:660px;display:flex;align-items:center;justify-content:center;background:var(--brown-deep);}
-  .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:contrast(1.03) saturate(1.03);z-index:0;}
+  .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:contrast(1.09) saturate(1.15) brightness(.99);z-index:0;}
   .hero-shade{position:absolute;inset:0;background:linear-gradient(rgba(30,28,25,.42),rgba(30,28,25,.60));z-index:1;}
   .hero-inner{position:relative;z-index:2;padding:70px 28px;max-width:720px;}
   .hero .eyebrow{color:#e8d8bf;}
@@ -85,7 +85,7 @@
   /* GALLERY BAND */
   .gallery{padding:0;border:none;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;background:var(--line);}
   .gallery figure{margin:0;overflow:hidden;background:var(--beige);}
-  .gallery img{width:100%;height:360px;object-fit:cover;filter:contrast(1.03) saturate(1.03);transition:transform .6s ease;}
+  .gallery img{width:100%;height:360px;object-fit:cover;filter:contrast(1.09) saturate(1.15) brightness(.99);transition:transform .6s ease;}
   .gallery figure:hover img{transform:scale(1.04);}
 
   /* CHECKLIST */
@@ -108,7 +108,7 @@
   .split-sec{padding:0;border:none;}
   .split{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;}
   .split .pic{position:relative;min-height:540px;background:var(--beige);overflow:hidden;}
-  .split .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:contrast(1.03) saturate(1.03);}
+  .split .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:contrast(1.09) saturate(1.15) brightness(.99);}
   .split .txt{padding:70px 56px;display:flex;flex-direction:column;justify-content:center;}
   .split .txt.on-beige{background:var(--beige);}
   .split .txt.on-dark{background:var(--charcoal);color:var(--cream);}
@@ -188,6 +188,21 @@
     <p>The program begins in October with 4 in-person training days, supported by a complete 100-hour training pathway. Across the training, students explore foundational Reformer repertoire spanning both the Classical Pilates method and Contemporary Reformer practice — studying spring selection, equipment safety, class planning, cueing, modifications, progressions, contraindications, observation skills, and the art of teaching different bodies in a group setting.</p>
     <p>It combines in-person learning, online study, observation, self-practice and ongoing mentorship, so students are supported beyond the initial training days and into real teaching experience.</p>
     <p>Following the course, you'll be supported through our community class program — where you can go on to teach straight away, gaining the real-world experience and mentorship you need to step into the industry with confidence.</p>
+  </div>
+</section>
+
+<!-- INSTRUCTOR -->
+<section class="split-sec">
+  <div class="split">
+    <div class="pic"><img src="https://images.squarespace-cdn.com/content/v1/65f7e5153e0e3811d2347db5/06cdf708-00dd-44a2-b307-8fc035ded49c/R6_A7141bw.jpg?format=1200w" alt="Sophie Lamont (Spratt), course instructor" loading="lazy" style="object-fit:contain;object-position:center;background:var(--beige);" /></div>
+    <div class="txt on-beige">
+      <span class="eyebrow">Meet your instructor</span>
+      <h2>Led by Sophie Lamont (Spratt)</h2>
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.35rem;color:var(--brown-deep);margin-bottom:14px;">Co-founder of Ritual Yoga &amp; Pilates · BSc (Biomedical Science), GDip Pilates</p>
+      <p>Sophie Lamont (Spratt) is a Pilates educator and teacher trainer with more than a decade immersed in movement education and over 5,000 hours of professional training under leading Australian and international educators. She blends classical Pilates foundations with anatomy, biomechanics and mindful movement.</p>
+      <p>As lead facilitator of Ritual's Reformer and Matwork Teacher Trainings and the creator of the studio's education curriculum, Sophie mentors and educates the next generation of Pilates instructors — and she'll be guiding you through this course.</p>
+      <a href="https://www.ritualyogaandpilates.com.au/sophie-spratt" target="_blank" rel="noopener" style="align-self:flex-start;margin-top:26px;display:inline-block;font-family:'Jost',sans-serif;letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;color:var(--red);border-bottom:1px solid var(--red);padding-bottom:4px;text-decoration:none;">Read Sophie's full bio &rarr;</a>
+    </div>
   </div>
 </section>
 
